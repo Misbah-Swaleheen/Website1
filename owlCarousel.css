@@ -1,0 +1,29 @@
+.owl-prev{
+    left: -20px;
+}
+.owl-next{
+    right: -70px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 10%;
+    outline: none !important;
+}
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color:white;
+    /* background-color: transparent !important; */
+    outline: none !important;
+
+    
+}
+.owl-prev:hover , .owl-next:hover{
+    background-color: transparent !important;
+}
+/* .owl-prev span:hover, .owl-next span:hover{
+    background-color: none !important;
+} */
+
+/* .owl-theme .owl-nav [class*="owl-"]:hover{
+    background-color: transparent;
+} */
